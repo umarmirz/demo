@@ -1,0 +1,79 @@
+<!-- Tables -->
+
+### Create a Survey Form
+
+**Build a simple survey form with the following fields:**
+
+1. **Text input** for name
+2. **Email input** for email address
+3. **Number input** for age
+4. **Radio buttons** for satisfaction level:
+    - Very Satisfied
+    - Satisfied
+    - Neutral
+    - Dissatisfied
+5. **Dropdown** for "How did you hear about us?":
+    - Google
+    - Facebook
+    - Friend
+    - Other
+6. **Checkboxes** for interests (at least 4 options)
+7. **Submit button** and **Reset button*
+
+
+<table border="1">
+
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ameer</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Suhail</td>
+        <td>28</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Faqruddin</td>
+        <td>28</td>
+    </tr>
+</table>
+<br>
+
+<form>
+    <label for="formName">Name</label>
+    <input type="text" id="formName" />
+    <br>
+    <label for="formEmail">Email</label>
+    <input type="email" id="formEmail" />
+    <br>
+
+    <!-- Checkbox -->
+    <input type="checkbox" id="reading" name="hobbies">
+    <label for="reading">Reading</label>
+
+    <input type="checkbox" id="sports" name="hobbies">
+    <label for="sports">Sports</label>
+
+    <input type="checkbox" name="hobbies">
+    <label>Music</label>
+
+    <input type="checkbox" name="hobbies">
+    <label>Cooking</label>
+    <br>
+
+    <!-- Radio -->
+    <input type="radio" id="male" name="gender" />
+    <label for="male">male</label> <br>
+
+    <input type="radio" id="female" name="gender"/>
+    <label for="female">Female</label> <br>
+
+    <button type="submit">Submit</button>
+</form>
